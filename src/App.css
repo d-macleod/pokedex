@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.pokedex {
+  width: 860px;
+  height: 600px;
+  /* background: aqua; */
+  margin: auto;
+  margin-top: 15%;
+  padding: 10px;
+  display: flex;
+}
+
+.left {
+  width: 400px;
+  height: 600px;
+  background: red;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.middle {
+  width: 60px;
+  height: 600px;
+  background: darkred;
+  border-radius: 10%;
+}
+
+.right {
+  width: 400px;
+  height: 550px;
+  background: red;
+  margin-top: 50px;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.screen-backing {
+  width: 340px;
+  height: 300px;
+  background: lightgray;
+  border-radius: 10%;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.left-screen {
+  width: 300px;
+  height: 200px;
+  background: white;
+  border-radius: 10%;
+  border: solid black;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.circle-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: red;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 0 5px gray;
+}
+
+.circle-btn:active {
+  background-color: darkred;
+  box-shadow: 0 0 2px gray;
+  transform: translateY(2px);
+}
+
+.screen-btn {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.camera {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: aqua;
+  border: 5px solid white;
+  margin: 0;
+}
+
+.ll-btn {
+  height: 65px;
+  width: 65px;
+  background-color: blue;
+  margin-top: 40px;
+  margin-left: 20px;
+  box-shadow: 0 0 10px gray;
+}
+
+.ll-btn:active {
+  background-color: darkblue;
+  box-shadow: 0 0 5px gray;
+  transform: translateY(2px);
+}
+
+.poke-index {
+  width: 80px;
+  height: 50px;
+  border-radius: 20%;
+  margin-left: 60px;
+  margin-right: 5px;
+  border: 10px solid teal;
+  outline: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.control {
+  margin-left: 300px;
+  background-color: #333;
+  display: flex;
+}
+
+.btn-ctrl {
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+}
+
+.right-screen {
+  width: 340px;
+  height: 200px;
+  background-color: lime;
+  border-radius: 10%;
+  box-shadow: 0 0 5px black;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.right-screen h3 {
+  text-align: center;
+}
