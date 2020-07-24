@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+html,
+body {
+  background: #000 url("img/background.jpg") no-repeat center center/cover;
+  /* background: aqua; */
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -61,9 +70,6 @@
   border: solid black;
   margin-top: 20px;
   margin-left: 15px;
-}
-
-.left-screen h1 {
 }
 
 .circle-btn {
@@ -140,17 +146,16 @@
 .right-screen {
   width: 340px;
   height: 200px;
+  padding: 5px;
   background-color: lime;
   border-radius: 5%;
   box-shadow: 0 0 5px black;
   margin-left: 20px;
   margin-top: 100px;
-}
-
-.right-screen {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .btn-grd {
