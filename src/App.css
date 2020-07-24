@@ -47,7 +47,7 @@
   width: 340px;
   height: 300px;
   background: lightgray;
-  border-radius: 10%;
+  border-radius: 5%;
   margin-top: 50px;
   margin-left: 20px;
   padding: 5px;
@@ -57,10 +57,13 @@
   width: 300px;
   height: 200px;
   background: white;
-  border-radius: 10%;
+  border-radius: 5%;
   border: solid black;
   margin-top: 20px;
   margin-left: 15px;
+}
+
+.left-screen h1 {
 }
 
 .circle-btn {
@@ -112,10 +115,11 @@
 .poke-index {
   width: 80px;
   height: 50px;
-  border-radius: 20%;
+  border-radius: 10%;
   margin-left: 60px;
   margin-right: 5px;
-  border: 10px solid teal;
+  background-color: lime;
+  border: 1px solid teal;
   outline: none;
   text-align: center;
   font-size: 30px;
@@ -137,12 +141,138 @@
   width: 340px;
   height: 200px;
   background-color: lime;
-  border-radius: 10%;
+  border-radius: 5%;
   box-shadow: 0 0 5px black;
   margin-left: 20px;
   margin-top: 100px;
 }
 
-.right-screen h3 {
-  text-align: center;
+.right-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-grd {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  grid-gap: 15px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.btn-rect {
+  width: 50px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 2%;
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 0 0 8px black;
+}
+
+.btn-rect:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 5px black;
+  background-color: darkblue;
+}
+
+.btn-flex {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.btn-sm {
+  width: 15px;
+  height: 15px;
+  background-color: darkblue;
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 0 0 1px black;
+}
+
+.btn-sm:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 0px black;
+}
+
+.oval-btn {
+  height: 15px;
+  width: 60px;
+  border-radius: 30%;
+  background-color: darkblue;
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 0 0 3px black;
+}
+
+.oval-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 0px black;
+}
+
+.btn-g {
+  background-color: green;
+}
+
+.btn-g:active {
+  background-color: darkgreen;
+}
+
+.btn-o {
+  background-color: orange;
+}
+
+.btn-o:active {
+  background-color: darkorange;
+}
+
+.btn-t {
+  background-color: teal;
+}
+
+.btn-t:active {
+  background-color: darkslategray;
+}
+
+.btn-y {
+  background-color: yellow;
+}
+
+.btn-y:active {
+  background-color: goldenrod;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 8px;
+  box-shadow: 0 0 5px black;
+}
+
+.red {
+  background-color: darkred;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-screen img {
+  width: 210px;
+  height: 210px;
+  margin-left: 45px;
 }
