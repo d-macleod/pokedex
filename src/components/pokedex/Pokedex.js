@@ -4,7 +4,7 @@ import PokeIndex from "../ui/PokeIndex";
 import Controlpad from "../ui/Controlpad";
 import RightScreen from "./RightScreen";
 
-const Pokedex = ({ getQuery, pokemon }) => {
+const Pokedex = ({ getQuery, query, pokemon }) => {
   return (
     <div className="pokedex">
       <div className="left">
@@ -16,8 +16,8 @@ const Pokedex = ({ getQuery, pokemon }) => {
         </div>
         <LeftScreen pokemon={pokemon} />
         <button className="circle-btn ll-btn"></button>
-        <PokeIndex getQuery={getQuery} />
-        <Controlpad />
+        <PokeIndex getQuery={getQuery} query={query} />
+        <Controlpad getQuery={getQuery} query={query} />
       </div>
       <div className="middle"></div>
       <div className="right">

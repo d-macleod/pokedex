@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
-const PokeIndex = ({ getQuery }) => {
-  const [index, setIndex] = useState(1);
-
+const PokeIndex = ({ getQuery, query }) => {
   const onChange = (q) => {
-    setIndex(q);
     getQuery(q);
   };
 
@@ -13,9 +10,11 @@ const PokeIndex = ({ getQuery }) => {
       type="number"
       min="1"
       max="807"
+      required="required"
+      placeholder="1"
       name="index"
       className="poke-index"
-      value={index}
+      value={query}
       onChange={(e) => onChange(e.target.value)}
     />
   );
